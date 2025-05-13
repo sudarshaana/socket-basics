@@ -6,17 +6,13 @@ I was studying how DNS works, but it turns out I need to know how socket works f
 
 ## So, what is a Socket? 
 
----------------------
-
 A socket in networking is an endpoint for communication between two machines over the network. You can think of it as a pipe between the two devices. A combination of IP address + Port number is used to establish the connection. Think of it like a home address and the door number where a message should go.
 
 
 
 
 
-## Sockets are two major types:
-
-----------------------------
+## Sockets are of two major types:
 
 **Stream Sockets:** Use TCP, for a reliable connection, like loading a website.
 
@@ -25,8 +21,6 @@ A socket in networking is an endpoint for communication between two machines ove
 
 
 ## How does it work?
-
---------------
 
 A Socket Requires a Server and a client to establish a connection. 
 
@@ -113,3 +107,5 @@ print("Received:", data.decode())
 client.close()
 
 ```
+
+### This repo contains a simple socket connection and a file transfer server-client setup code.
